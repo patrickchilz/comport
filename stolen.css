@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	color: #777;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+a {
+	text-decoration:none;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  top:0;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+.header-right  li {
+  float: right;
+  padding:0;
+  margin:2%;
+  list-style:none;
+}
+.header-right  ul li a {
+    color: #222;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px;
+}
+.header-right .menu-btn{
+	display:inline;
+	margin-left:60px;
+}
+.menu-btn .signup{	
+background-color:#ff9902;
+}
+.firstpart img{
+	align:left;
+	width:40%;
+}
+.firstpart h1 {
+    color: #222;
+    text-transform: uppercase;
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.firstpart span{
+	color: #ff9902;
+}
+
+.firstpart  .texts{
+	padding:0 2%;
+	margin-left:1%;
+	margin-top:3%;
+	width:480px;
+	float:right;
+}
+.firstpart a:hover{
+	transition:1s;
+	color: #ff9902;
+}
+.Search{
+	margin:2%;
+	padding:1%;
+	background-color:#ff9902;
+}
+.Search a{
+	background-color:black;
+	color:white;
+	padding:40px 50px;
+	border-radius: 5px;
+}
+.Search form select{
+	width:20%;
+	padding:2%;
+	margin:3%;
+	border-radius: 10px;
+}
+.Search form input{
+	width:10%;
+	padding:2%;
+	margin:3%;
+	border-radius: 10px;
+}
+.icons{
+	float: left;
+	width: 33.2%;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+	
+}
+.icon-tabs{
+	margin:20px 20px;
+	padding:10px 10px;
+	background-color:#F5F5F5;
+}
+	
+
+.icon-tabs p{
+	width: 50%;
+	padding-left:25%;
+	padding-right:25%;
+	color: grey;
+	text-align:center;
+}
+.icons a{
+	padding-top:2px;
+}
+.icon-tabs:hover {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 background-color:white;
+	 transition:0.8s;
+}
+.tab-icons{
+	float: left;
+	width: 25%;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
